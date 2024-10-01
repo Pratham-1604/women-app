@@ -34,7 +34,6 @@ Future<void> initializeService() async {
   AndroidNotificationChannel channel = AndroidNotificationChannel(
     "script academy",
     "foregrounf service",
-    "used for imp notifcation",
     importance: Importance.low,
   );
   final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
@@ -136,7 +135,6 @@ void onStart(ServiceInstance service) async {
             android: AndroidNotificationDetails(
           "script academy",
           "foregrounf service",
-          "used for imp notifcation",
           icon: 'ic_bg_service_small',
           ongoing: true,
         )),

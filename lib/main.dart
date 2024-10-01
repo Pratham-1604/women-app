@@ -22,16 +22,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
-        // scaffoldMessengerKey: navigatorkey,
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          textTheme: GoogleFonts.firaSansTextTheme(
-            Theme.of(context).textTheme,
-          ),
-          primarySwatch: Colors.blue,
+      title: 'Flutter Demo',
+      // scaffoldMessengerKey: navigatorkey,
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        textTheme: GoogleFonts.firaSansTextTheme(
+          Theme.of(context).textTheme,
         ),
-        home: BottomPage());
+        primarySwatch: Colors.blue,
+      ),
+      home: BottomPage(),
+    );
   }
 }
 
